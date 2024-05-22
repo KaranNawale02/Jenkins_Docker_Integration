@@ -8,7 +8,11 @@
     <artifactId>jenkins_docker_integration</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
+<<<<<<< HEAD
         <finalName>devops-automation</finalName>
+=======
+        <finalName> git- jenkins and docker integration </finalName>
+>>>>>>> e927ad32c99f435eaebafb27f706e7400d0a4880
     </build>
 
     <properties>
@@ -16,4 +20,9 @@
         <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<<<<<<< HEAD
 </project>
+=======
+
+</project>
+>>>>>>> e927ad32c99f435eaebafb27f706e7400d0a4880

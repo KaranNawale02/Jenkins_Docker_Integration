@@ -4,7 +4,7 @@ In this project I used Jenkins to create a CI/CD Pipeline. For version controll 
 
 After the jenkins installation open the jenkins dashboard and create Project Pipeline Project 
 
-    ![jenkins free style project](https://github.com/KaranNawale02/Jenkins_Docker_Integration/assets/124289243/ad513de7-6d1e-434a-b715-bcdc8f49decd)
+![jenkins free style project](https://github.com/KaranNawale02/Jenkins_Docker_Integration/assets/124289243/ad513de7-6d1e-434a-b715-bcdc8f49decd)
 
 Now lets configure the git for a directory to do that go to the project directory and enter the command
 
@@ -15,12 +15,12 @@ Now lets configure the git for a directory to do that go to the project director
 
 After sucessfully initializing the git go the jenkins and configure the pipeline and declerative script fot the project and also selct a build trigger a Git web hook. that will do whenerver a commit happend jenkins will automaticallly pull the code from git and do the process
 
-    ![buiild_triggers](https://github.com/KaranNawale02/Jenkins_Docker_Integration/assets/124289243/4603f208-9856-4147-820e-ddee6bbb668d)
+![buiild_triggers](https://github.com/KaranNawale02/Jenkins_Docker_Integration/assets/124289243/4603f208-9856-4147-820e-ddee6bbb668d)
 
 Now our first stage is complete of our pipeline that is integrate a version controll system with jenkins now Lets build the projcet using maven casue this is maven project.
 Add the following script in the jenkins pipeline script. here we are using declarative scripting.
 
-        ![mvn build script](https://github.com/KaranNawale02/Jenkins_Docker_Integration/assets/124289243/676e7e41-aeaa-4965-a681-fe7d9ac741e2)
+![mvn build script](https://github.com/KaranNawale02/Jenkins_Docker_Integration/assets/124289243/676e7e41-aeaa-4965-a681-fe7d9ac741e2)
 
 We sucessfully added the maven clean installation step to build our project. Now we have to build a docker image that we will use to containers from that image.
 To do that we need add the docker file in our project . Go to your project folder and add a file named as DockerFile and add this line in the file 
